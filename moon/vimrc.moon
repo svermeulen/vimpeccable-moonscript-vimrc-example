@@ -23,10 +23,10 @@ vimp.nnoremap '<leader>n', -> vim.wo.number = not vim.wo.number
 vimp.nnoremap 'J', 'mzJ`z'
 
 -- Edit the primary vimrc
-vimp.nnoremap '<leader>ev', -> vim.cmd('vsplit ~/.config/nvim/init.vim')
+vimp.nnoremap '<leader>ev', -> vim.cmd("vsplit ~/.config/nvim/plugged/vimpeccable-moonscript-vimrc-example/moon/vimrc.moon")
 -- This would work too:
--- vimp.nnoremap '<leader>ev', [[:vsplit ~/.config/nvim/init.vim<cr>]]
+-- vimp.nnoremap '<leader>ev', ':vsplit ~/.config/nvim/plugged/vimpeccable-moonscript-vimrc-example/moon/vimrc.moon<cr>'
 -- Or this:
--- vimp.nnoremap '<leader>ev', ':vsplit ~/.config/nvim/init.vim<cr>'
+-- vimp.nnoremap '<leader>ev', [[:vsplit ~/.config/nvim/plugged/vimpeccable-moonscript-vimrc-example/moon/vimrc.moon<cr>]]
 
 vim.cmd('colorscheme gruvbox')
