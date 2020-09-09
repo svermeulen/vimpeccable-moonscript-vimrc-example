@@ -14,7 +14,8 @@ vim.g.mapleader = " "
 
 -- Note that we are using 'vimp' here for vimpeccable
 vimp.nnoremap '<leader>hw', ->
-  print('hello world')
+  print('hello')
+  print('world')
 
 -- Toggle line numbers
 vimp.nnoremap '<leader>n', -> vim.wo.number = not vim.wo.number
